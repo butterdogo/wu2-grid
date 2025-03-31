@@ -1,0 +1,109 @@
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+ 
+    font-family: sans-serif;
+    font-size: 1.2rem;
+
+    display: grid;
+    place-items: center;
+}
+
+
+main {
+
+    height: 600px;
+    width: 450px;
+
+}
+
+.prov-14-grid{
+
+    display: grid;
+    grid-template-rows:    repeat(8, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+
+    .grid-item1 {
+        grid-row-start: 1;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: goldenrod;
+        color: white;
+
+        display: grid;
+        place-items: center;
+        border: 3px solid white;
+    }
+    .grid-item2 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 4;
+        grid-column-end: 13;
+        background-color: goldenrod;
+        color: white;
+
+        display: grid;
+        place-items: center;
+        border: 3px solid white;
+    }
+    .grid-item3 {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 4;
+        grid-column-end: 13;
+        background-color: goldenrod;
+        color: white;
+
+        display: grid;
+        place-items: center;
+        border: 3px solid white;
+    }
+   
+    .grid-item4 {
+        grid-row-start: 4;
+        grid-row-end: 6;
+        grid-column-start: 4;
+        grid-column-end: 13;
+        background-color: goldenrod;
+        color: white;
+
+        display: grid;
+        place-items: center;
+        border: 3px solid white;
+    }
+    
+    .grid-item5 {
+        grid-row-start: 6;
+        grid-row-end: 8;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        background-color: goldenrod;
+        color: white;
+
+        display: grid;
+        place-items: center;
+        border: 3px solid white;
+    }
+
+    .grid-item6 {
+        grid-row-start: 6;
+        grid-row-end: 8;
+        grid-column-start: 5;
+        grid-column-end: 13;
+        background-color: goldenrod;
+        color: white;
+
+        display: grid;
+        place-items: center;
+        border: 3px solid white;
+    }
+
+}
